@@ -1,0 +1,24 @@
+    isH=types.InlineKeyboardButton(text="isHot",callback_data="isHotoff")
+    isW = types.InlineKeyboardButton(text="isWent", callback_data="isWentoff")
+    isP = types.InlineKeyboardButton(text="isPump", callback_data="isPumpoff")
+    isL = types.InlineKeyboardButton(text="isLight", callback_data="isLightoff")
+
+    inT = types.InlineKeyboardButton(text="Температура внутри", callback_data="inToff")
+    outT = types.InlineKeyboardButton(text="Температура снаружи", callback_data="outToff")
+    inH = types.InlineKeyboardButton(text="Влажность внутри", callback_data="inHoff")
+    outH = types.InlineKeyboardButton(text="Влажность снаружи", callback_data="outHoff")
+
+    WL = types.InlineKeyboardButton(text="Уровень воды", callback_data="WLoff")
+    SH = types.InlineKeyboardButton(text="Влажность почвы", callback_data="SHoff")
+    Light = types.InlineKeyboardButton(text="Уровень освещения", callback_data="Lightoff")
+    btf["isHotoff"]=isH
+    btf["isWentoff"] =isW
+    btf["isPumpoff"] =isP
+    btf["isLightoff"] =isL
+    btf["inToff"] =inT
+    btf["outToff"] =outT
+    btf["inHoff"] =inH
+    btf["outHoff"] =outH
+    btf["WLoff"] =WL
+    btf["SHoff"] =SH
+    btf["Lightoff"] =Light

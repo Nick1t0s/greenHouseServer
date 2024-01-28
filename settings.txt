@@ -1,0 +1,10 @@
+type window
+FTP_Dir C:\my3
+DBFILE tepl2
+ARCHIVEFOLDER archive
+otherFiles delete
+type_Photo .jpg
+type_Data_Split ;
+date_Split .
+time_Split :
+in_File_Split ;
