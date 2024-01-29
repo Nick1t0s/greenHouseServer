@@ -1,5 +1,6 @@
 import sqlite3 as sq
 import os
+import sys
 import matplotlib.pyplot as plt
 data=["id","teplId","dt","isPump","isLed","isHot","isWent","inH","inT","outH","outT","WL","SH","Light"]
 path=os.path.abspath(__file__).split("\\")[:-1]
