@@ -232,8 +232,6 @@ class Grath:
 #        self.minDate=min(self.ldt)
 #        self.maxDate=max(self.ldt)
 #        self.scope=self.maxDate-self.minDate
-    def choseType(self):
-        if
     def oneDay(self):
         print("OneDay")
         print()
