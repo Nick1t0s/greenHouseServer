@@ -259,6 +259,20 @@ class Grath:
             else:
                 self.dateGrath.append(" "*cnt)
                 cnt+=1
+    def twentyOneDays(self):
+        print("OneDay")
+        print()
+        print(self.data)
+        cnt=1
+        for i in range(len(self.data[-1])):
+            if 0<self.data[-1][i].minute<=5 and self.data[-1][i].hour%12==0:
+                if self.data[-1][i].hour!=0:
+                    self.dateGrath.append(" "*cnt+self.data[-1][i].strftime("%H")+" "*cnt)
+                else:
+                    self.dateGrath.append(" "*cnt+self.data[-1][i].strftime("%H(%m.%d)")+" "*cnt)
+            else:
+                self.dateGrath.append(" "*cnt)
+                cnt+=1
 
     def crGR(self):
         print()
